@@ -1,0 +1,50 @@
+= Java Applications without Frameworks
+:author: Marten Deinum <marten.deinum@conspect.nl>
+:date: 2024-02-28
+:icons: font
+
+:revealjs_theme: sky
+:revealjs_history: false
+:revealjs_slideNumber: c/t
+:revealjs_showSlideNumber: speaker
+:revealjs_controls: true
+:revealjs_previewLinks: true
+:revealjs_transition: fade
+:revealjs_width: 1408
+:revealjs_height: 792
+
+== About Me
+
+[%step]
+* Using Java since 1996
+** version 1.0.2c first ever used
+** Professionally since 2000
+* Spring Framework enthusiast since 2003(ish)
+
+== History
+
+[.fade-in-then-semi-out%step]
+* Java initially had no frameworks
+** Log4J - 2001
+** Commons Pool - 2002
+** Apache Tomcat - 1998
+* Browsers included own JVM (Microsoft, NetScape)
+* Yet we still wrote (enterprise) applications
+
+== Framework vs. Library
+
+Library: Set of utilities, tools to achieve a single goal
+examples: Log4j, Hibernate
+
+Framework:
+
+== Rules of the Game
+* Use only what the JDK provides
+** Preview features are allowed
+* API implementations are allowed
+** JDBC implementation
+* Can use a build tool (Maven)
+
+== Conclusions
+
+== Questions
